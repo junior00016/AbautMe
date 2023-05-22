@@ -1,0 +1,105 @@
+@media screen and (max-width:1080px) {
+    .banner {
+        height: 703px;
+    }
+
+    .aboutme__wrap {
+        gap: 30px;
+    }
+    .cards__wrap{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .banner {
+        height: 620px;
+    }
+
+    .aboutme__desc {
+        height: auto;
+    }
+
+    .aboutme__desc-p {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .aboutme__desc-p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .header__nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner__title {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .banner {
+        height: 510px;
+    }
+
+    .aboutme__wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .aboutme__img img {
+        width: 300px;
+        height: 355px;
+        object-fit: cover;
+    }
+
+    .aboutme__desc-h {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:568px) {
+    .nav__menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .banner {
+        height: 420px;
+    }
+
+    .banner__wrap {
+        gap: 40px;
+    }
+
+    .banner__call {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .cards__item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:420px) {
+    
+    .banner__title {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .footer__list{
+        flex-wrap: wrap;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+}
